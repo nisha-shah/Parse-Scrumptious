@@ -42,7 +42,7 @@ NSString *const SCSessionStateChangedNotification =
     self.window.backgroundColor = [UIColor whiteColor];
     
     // Setting the "Volunteer View Controller" as the root view controller.
-    self.mainViewController = [[MainViewController alloc]initWithNibName:@"VolunteerViewController" bundle:nil];
+    self.mainViewController = [[MainViewController alloc]initWithNibName:@"MainViewController" bundle:nil];
     self.navigationController = [[UINavigationController alloc]initWithRootViewController:self.mainViewController];
     self.window.rootViewController = self.navigationController;
     [FBLoginView class];
